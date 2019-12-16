@@ -1,0 +1,130 @@
+body
+{
+	background-color: #FFE3E2;
+	text-align: justify;
+	color: black ;
+	font-family: Georgia, serif;
+	font-size: 18px ;
+}
+
+.container {background-color: rgba(255, 219, 93, 0.5) ;}
+
+.row {padding: 15px;}
+
+#videoIntro {height: 450px; width: 600px;}
+
+.h1
+{
+	font-family: Segoe UI Black, bold ;
+	text-align: center;
+	color: white ;
+	font-size: 68px ;
+	background-color: rgb(0, 0, 0); 
+}
+
+.part {display: block;}
+
+#accordion{width: 100%;}
+.card {border : none ;}
+.card-header
+{
+	background-color: #FFE3E2 ;
+	border-bottom : none ;
+}
+h5{text-align: center;}
+
+.titlePart
+{
+	background-color: #454545 ;
+	padding-left: 80px ;
+	padding-top: 50px ;
+	padding-bottom: 50px ;
+
+	font-family: Segoe UI Black ;
+	font-size: 40px ;
+	color: white ;
+}
+
+.introPart
+{
+	font-size: 18px ;
+
+	background-color: rgba(255, 93, 93, 0.25); ;
+	margin-left: 30px ;
+	margin-right: 30px ;
+	padding-top: 0px ;
+}
+
+.subpartTitle
+{
+	padding-bottom : 0px ;
+	padding-left: 70px;
+
+	font-size: 30px ;
+	font-style: italic ;
+}
+
+.txt
+{
+	margin: auto ;
+	text-indent: 40px;
+}
+
+#carouselImg{width: 450px; height: 300px;}
+
+.carousel-item{width:1110px; height: 500px;}
+
+.carousel {background-color : rgba(100, 100, 100, 0.5);}
+
+.mid{background-color: #FFE3E2;}
+
+#P3S2fImg2 {height: 200px ; width: auto;}
+
+.encart
+{
+	border: 3px solid grey ;
+	background-color: #FFFCFB ;
+
+	margin-left : 75px; 
+	margin-right : 75px;
+}
+
+.img{width : 100%;}
+
+.button_page
+{
+	flex-direction: column;
+	background-color: #FFE3E2 ;
+}
+
+.btn-page
+{
+	font-size: 25px;
+	font-family: impact ;
+	color : #635980 ;
+
+	width: 550px ;
+	margin-bottom: 5px ;
+}
+
+figure
+{
+	flex-direction: column;
+}
+
+figcaption
+{
+	font-size: 14px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.75);
+}
+
+#P2S3dImg1 ,#P2S3dImg2
+{
+	flex: auto;
+}
+
+#workFooter {height: 100px ;}
+
+/*----Tools----*/
+.inCenterAll, .carousel-item.active,.carousel-item-next, .carousel-item-prev {display: flex ; align-items: center; justify-content: center;}
